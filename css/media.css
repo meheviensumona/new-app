@@ -21,7 +21,10 @@
 
     /* feature start */
       .feature-img {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        display: flex;
+            }
       }
     /* feature end */
 
@@ -30,9 +33,22 @@
         margin-bottom:20px;
     }
     .best-plan {
-        padding: 50px 0px;
+        padding: 20px 10px;
     }
-    /* ebst plan section end */
+    .best-plan-header{
+        text-align: center;
+    }
+    .best-plan-header h2{
+     line-height: 36px;
+    }
+    /* best plan section end */
+    /* screen short start */
+    .screenshort-header{
+        padding: 30px 15px !important;
+    }
+    /* screen short end */
+
+
     /* testimonial start */
     .testimonial-content {
         display: flex;
@@ -56,7 +72,7 @@
 
     /*submit start */
 .subscribe {
-    padding: 80px 0px 0px;
+    padding: 80px 10px 0px;
 }
   .c_input {
     height: 40px;
@@ -68,7 +84,12 @@
 /* end submit */
 /* footer */
 .footer-bg {
-    padding: 30px 0px !important;
+    padding: 40px 0px !important;
+    
+}
+.footer-4 h4{
+    padding-bottom: 15px;
+    text-align: center;
 }
 .footer_link {
      justify-content: center; 
@@ -83,6 +104,14 @@
 .second_f {
     padding: 0px 0px 30px;
 }
+/* feed back start */
+.feedback-header{
+    padding: 15px !important;
+
+}
+/* fedd back end */
+
+
 }
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -113,7 +142,13 @@
     .c_submit {
         height: 45px;
     }
-
+    /* core app  feature */
+    .feature-img{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 60px;
+    }
+    /* core app feature end */
  }
 
  /* Medium devices (tablets, 768px and up) */
