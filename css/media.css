@@ -14,20 +14,29 @@
     /* slider end */
 
     /* feature start */
+    .hero-box-area {
+        padding-bottom: 60px;
+    }
       .feature-img {
         margin-bottom: 40px;
         justify-content: center;
         display: flex;
             }
+      .feature-img img{
+        width: 80%;
       }
+      
     /* feature end */
     /* core app start */
     .hero-box{
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
     .hero-box h5{
 
         font-size: 17px;
+    }
+    .core-app-feature {
+        padding: 50px 0px;
     }
     .feature-img{
         justify-content: center;
@@ -44,7 +53,7 @@
         padding: 20px 10px;
     }
     .best-plan-header{
-        text-align: center;
+        text-align: center !important;
     }
     .best-plan-header h2{
      line-height: 36px;
@@ -178,7 +187,6 @@
     font-size: 22px;
 }
 .slider_btn{
-    font-size: 24px;
     padding: 10px 50px !important;
 }
 /* slider end */
